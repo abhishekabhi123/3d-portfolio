@@ -1,6 +1,4 @@
 
-import { Canvas } from "@react-three/fiber"
-import { Suspense } from "react"
 import HeroSection from "./components/hero/HeroSection"
 
 function App() {

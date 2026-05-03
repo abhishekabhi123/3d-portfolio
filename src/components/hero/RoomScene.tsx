@@ -73,7 +73,7 @@ function RoomScene({ onMonitorClick, onBookshelfClick,
                 </RoundedBox>
                 <mesh position={[-1.2, 1.8, 0.026]}>
                     <planeGeometry args={[0.7, 0.9]} />
-                    <meshBasicMaterial map={windowViewColor} />
+                    <meshBasicMaterial map={poster1Color} />
                 </mesh>
 
                 {/* Poster 2 */}
