@@ -21,7 +21,7 @@ function RoomScene({ onMonitorClick, onBookshelfClick,
 
     useCursor(hovered)
 
-    const [poster1Color, poster2Color, windowViewColor, xp, windowTexture] = useTexture(['/poster1.jpg', '/poster2.jpg', '/window_view.jpg', '/xp.jpg', '/window.png']);
+    const [poster1Color, poster2Color, xp, windowTexture] = useTexture(['/poster1.jpg', '/poster2.jpg', '/xp.jpg', '/window.png']);
 
     useFrame((state) => {
         const t = state.clock.getElapsedTime();
