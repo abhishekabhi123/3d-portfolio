@@ -12,8 +12,8 @@ function App() {
           <nav className="flex gap-4 text-sm text-slate-300">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
             <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
           </nav>
         </div>
@@ -69,6 +69,81 @@ function App() {
                 Docker, Kubernetes (AKS), Azure DevOps, GitHub Actions, Grafana, CI/CD,
                 Git, Vite, Jest, Vitest, Postman, Agile/Scrum, Linear.
               </p>
+            </div>
+          </div>
+        </section>
+        <section id="experience" className="py-16 border-t border-slate-800">
+          <h2 className="text-2xl font-semibold mb-8">Experience</h2>
+
+          <div className="relative">
+            {/* Vertical line */}
+            <div className="absolute left-3 top-0 h-full w-px bg-slate-800 md:left-4" />
+
+            <div className="space-y-8">
+              {/* SDE II */}
+              <article className="relative pl-10 md:pl-12">
+                {/* Timeline dot */}
+                <div className="absolute left-1 top-2 h-4 w-4 rounded-full border-2 border-sky-500 bg-slate-950 md:left-2" />
+
+                <div className="rounded-lg border border-slate-800 bg-slate-900/40 p-4">
+                  <div className="flex flex-col justify-between gap-2 md:flex-row md:items-baseline">
+                    <div>
+                      <h3 className="text-sm font-semibold text-slate-100">
+                        Software Development Engineer II · Neutrinos
+                      </h3>
+                      <p className="text-xs text-slate-400">
+                        Jul 2024 – Present · Bengaluru, India
+                      </p>
+                    </div>
+                    <p className="text-xs text-sky-400 uppercase tracking-[0.2em]">
+                      Full‑stack · SaaS
+                    </p>
+                  </div>
+
+                  <p className="mt-3 text-sm text-slate-300">
+                    Leading full‑stack work on three core services—an integration
+                    layer, case manager, and agent portal—for banking and insurance
+                    clients, owning everything from React frontends and Node.js APIs
+                    to deployment and monitoring.
+                  </p>
+                  <p className="mt-2 text-xs text-slate-400">
+                    Set up a Kubernetes‑based staging environment, CI/CD with Docker
+                    and Azure DevOps, and Grafana dashboards with alerting to cut
+                    deployment time and MTTR.
+                  </p>
+                </div>
+              </article>
+
+              {/* Associate Product Engineer */}
+              <article className="relative pl-10 md:pl-12">
+                <div className="absolute left-1 top-2 h-4 w-4 rounded-full border-2 border-slate-600 bg-slate-950 md:left-2" />
+
+                <div className="rounded-lg border border-slate-800 bg-slate-900/40 p-4">
+                  <div className="flex flex-col justify-between gap-2 md:flex-row md:items-baseline">
+                    <div>
+                      <h3 className="text-sm font-semibold text-slate-100">
+                        Associate Product Engineer · Neutrinos
+                      </h3>
+                      <p className="text-xs text-slate-400">
+                        May 2023 – Jul 2024 · Bengaluru, India
+                      </p>
+                    </div>
+                    <p className="text-xs text-sky-400 uppercase tracking-[0.2em]">
+                      Full‑stack · Internal tools
+                    </p>
+                  </div>
+
+                  <p className="mt-3 text-sm text-slate-300">
+                    Built a full‑stack quiz platform with Angular, Node.js, and
+                    MongoDB used by 100+ employees and as a demo for Neutrinos Studio
+                    capabilities.
+                  </p>
+                  <p className="mt-2 text-xs text-slate-400">
+                    Developed a QR‑code–based event app for real‑time gift tracking at
+                    company events, reducing manual admin work for 100+ participants.
+                  </p>
+                </div>
+              </article>
             </div>
           </div>
         </section>
@@ -159,81 +234,6 @@ function App() {
                 TypeScript · VS Code Extension API · Node.js · npm audit · ESBuild · ESLint
               </p>
             </article>
-          </div>
-        </section>
-        <section id="experience" className="py-16 border-t border-slate-800">
-          <h2 className="text-2xl font-semibold mb-8">Experience</h2>
-
-          <div className="relative">
-            {/* Vertical line */}
-            <div className="absolute left-3 top-0 h-full w-px bg-slate-800 md:left-4" />
-
-            <div className="space-y-8">
-              {/* SDE II */}
-              <article className="relative pl-10 md:pl-12">
-                {/* Timeline dot */}
-                <div className="absolute left-1 top-2 h-4 w-4 rounded-full border-2 border-sky-500 bg-slate-950 md:left-2" />
-
-                <div className="rounded-lg border border-slate-800 bg-slate-900/40 p-4">
-                  <div className="flex flex-col justify-between gap-2 md:flex-row md:items-baseline">
-                    <div>
-                      <h3 className="text-sm font-semibold text-slate-100">
-                        Software Development Engineer II · Neutrinos
-                      </h3>
-                      <p className="text-xs text-slate-400">
-                        Jul 2024 – Present · Bengaluru, India
-                      </p>
-                    </div>
-                    <p className="text-xs text-sky-400 uppercase tracking-[0.2em]">
-                      Full‑stack · SaaS
-                    </p>
-                  </div>
-
-                  <p className="mt-3 text-sm text-slate-300">
-                    Leading full‑stack work on three core services—an integration
-                    layer, case manager, and agent portal—for banking and insurance
-                    clients, owning everything from React frontends and Node.js APIs
-                    to deployment and monitoring.
-                  </p>
-                  <p className="mt-2 text-xs text-slate-400">
-                    Set up a Kubernetes‑based staging environment, CI/CD with Docker
-                    and Azure DevOps, and Grafana dashboards with alerting to cut
-                    deployment time and MTTR.
-                  </p>
-                </div>
-              </article>
-
-              {/* Associate Product Engineer */}
-              <article className="relative pl-10 md:pl-12">
-                <div className="absolute left-1 top-2 h-4 w-4 rounded-full border-2 border-slate-600 bg-slate-950 md:left-2" />
-
-                <div className="rounded-lg border border-slate-800 bg-slate-900/40 p-4">
-                  <div className="flex flex-col justify-between gap-2 md:flex-row md:items-baseline">
-                    <div>
-                      <h3 className="text-sm font-semibold text-slate-100">
-                        Associate Product Engineer · Neutrinos
-                      </h3>
-                      <p className="text-xs text-slate-400">
-                        May 2023 – Jul 2024 · Bengaluru, India
-                      </p>
-                    </div>
-                    <p className="text-xs text-sky-400 uppercase tracking-[0.2em]">
-                      Full‑stack · Internal tools
-                    </p>
-                  </div>
-
-                  <p className="mt-3 text-sm text-slate-300">
-                    Built a full‑stack quiz platform with Angular, Node.js, and
-                    MongoDB used by 100+ employees and as a demo for Neutrinos Studio
-                    capabilities.
-                  </p>
-                  <p className="mt-2 text-xs text-slate-400">
-                    Developed a QR‑code–based event app for real‑time gift tracking at
-                    company events, reducing manual admin work for 100+ participants.
-                  </p>
-                </div>
-              </article>
-            </div>
           </div>
         </section>
         <section id="contact" className="py-16 border-t border-slate-800">
