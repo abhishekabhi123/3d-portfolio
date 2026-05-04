@@ -89,7 +89,7 @@ function App() {
                 {/* Replace with your actual links */}
                 <div className="flex gap-2 text-xs">
                   <a
-                    href="https://your-live-link-here"
+                    href="https://travel-story-amber.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="rounded border border-slate-700 px-2 py-1"
@@ -97,7 +97,7 @@ function App() {
                     Live
                   </a>
                   <a
-                    href="https://github.com/your-username/travel-story-map"
+                    href="https://github.com/abhishekabhi123/travel-story"
                     target="_blank"
                     rel="noreferrer"
                     className="rounded border border-slate-700 px-2 py-1"
@@ -131,7 +131,7 @@ function App() {
                 {/* Replace with your extension link / repo */}
                 <div className="flex gap-2 text-xs">
                   <a
-                    href="https://marketplace.visualstudio.com/items?itemName=your-id"
+                    href="https://marketplace.visualstudio.com/items?itemName=AbhishekPS.depradar"
                     target="_blank"
                     rel="noreferrer"
                     className="rounded border border-slate-700 px-2 py-1"
@@ -139,7 +139,7 @@ function App() {
                     Marketplace
                   </a>
                   <a
-                    href="https://github.com/your-username/depradar"
+                    href="https://github.com/abhishekabhi123/depradar"
                     target="_blank"
                     rel="noreferrer"
                     className="rounded border border-slate-700 px-2 py-1"
