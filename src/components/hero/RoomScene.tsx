@@ -21,7 +21,7 @@ function RoomScene({ onMonitorClick, onBookshelfClick,
 
     useCursor(hovered)
 
-    const [poster1Color, poster2Color, xp, windowTexture] = useTexture(['/poster1.jpg', '/poster2.jpg', '/xp.jpg', '/window.png']);
+    const [poster1Color, poster2Color, xp, windowTexture] = useTexture(['/poster1.jpg', '/poster2.jpg', '/xp.jpg', '/window.jpg']);
 
     useFrame((state) => {
         const t = state.clock.getElapsedTime();
@@ -234,13 +234,13 @@ function RoomScene({ onMonitorClick, onBookshelfClick,
                         const glowColors = ['#f8fafc', '#f1f5f9', '#e2e8f0', '#cbd5e1', '#ffffff', '#ffffff'];
                         const heights = [0.28, 0.25, 0.29, 0.24, 0.22, 0.27];
                         return (
-                            <mesh key={`bottom-book-${i}`} position={[0, -0.6 + heights[i]/2 + 0.01, z]} castShadow>
+                            <mesh key={`bottom-book-${i}`} position={[0, -0.6 + heights[i] / 2 + 0.01, z]} castShadow>
                                 <boxGeometry args={[0.05, heights[i], 0.15]} />
-                                <meshStandardMaterial 
-                                    color={hoveredBookshelf ? glowColors[i] : colors[i]} 
-                                    roughness={0.7} 
-                                    emissive={hoveredBookshelf ? glowColors[i] : '#000000'} 
-                                    emissiveIntensity={0.2} 
+                                <meshStandardMaterial
+                                    color={hoveredBookshelf ? glowColors[i] : colors[i]}
+                                    roughness={0.7}
+                                    emissive={hoveredBookshelf ? glowColors[i] : '#000000'}
+                                    emissiveIntensity={0.2}
                                 />
                             </mesh>
                         );
